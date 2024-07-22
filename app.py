@@ -27,7 +27,7 @@ def whatsapp_webhook():
 
     incoming_msg = request.values.get('Body', '').lower()
 
-    ebook = {'url': 'https://itbank.co.zw/WiseSureCustomerService.pdf'}
+    ebook = {'url': 'https://github.com/mcwilton/bot/blob/main/fervent.pdf'}
 
     url = "https://api.chatpdf.com/v1/chats/message"
 
